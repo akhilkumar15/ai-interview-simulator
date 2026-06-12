@@ -1,0 +1,172 @@
+[
+  {
+    "role": "Software Engineer",
+    "questions": [
+      {
+        "question": "Tell me about yourself",
+        "keywords": ["skills", "experience", "projects", "education"],
+        "ideal_answer": "I am a software engineering student with strong skills in programming, problem solving, and building projects. I have experience working on machine learning and web development projects and I am eager to learn and grow in this field."
+      },
+      {
+        "question": "What is the difference between Array and Linked List?",
+        "keywords": ["array", "linked list", "memory", "dynamic", "pointer"],
+        "ideal_answer": "An array stores elements in contiguous memory and has fixed size, allowing fast access. A linked list uses nodes connected by pointers, supports dynamic size, and allows efficient insertion and deletion."
+      },
+      {
+        "question": "Explain Binary Search?",
+        "keywords": ["binary search", "sorted", "log n", "divide", "mid"],
+        "ideal_answer": "Binary search is an efficient algorithm used on sorted arrays. It repeatedly divides the search space by comparing the middle element, resulting in O(log n) time complexity."
+      },
+      {
+        "question": "What is OOP?",
+        "keywords": ["oop", "encapsulation", "inheritance", "polymorphism", "abstraction"],
+        "ideal_answer": "Object Oriented Programming is a paradigm based on concepts like encapsulation, inheritance, polymorphism, and abstraction, which help in organizing and reusing code efficiently."
+      }
+    ]
+  },
+  {
+    "role": "Data Analyst",
+    "questions": [
+      {
+        "question": "What are your strengths?",
+        "keywords": ["problem solving", "teamwork", "adaptability"],
+        "ideal_answer": "My strengths include strong problem solving skills, ability to work in a team, and adaptability to new challenges. I can analyze data effectively and communicate insights clearly."
+      },
+      {
+        "question": "What is SQL JOIN?",
+        "keywords": ["join", "tables", "inner", "left", "right"],
+        "ideal_answer": "SQL JOIN is used to combine data from two or more tables based on a common column. Types include INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN."
+      },
+      {
+        "question": "What is GROUP BY?",
+        "keywords": ["group by", "aggregation", "sum", "count", "avg"],
+        "ideal_answer": "GROUP BY is used in SQL to group rows with similar values and perform aggregation functions like SUM, COUNT, and AVG."
+      },
+      {
+        "question": "What is Dashboard?",
+        "keywords": ["dashboard", "visualization", "kpi", "insights"],
+        "ideal_answer": "A dashboard is a visual representation of data that displays key performance indicators and insights to help in decision making."
+      }
+    ]
+  },
+  {
+    "role": "AI / ML Engineer",
+    "questions": [
+      {
+        "question": "What is Overfitting?",
+        "keywords": ["overfitting", "training", "testing", "noise", "generalization"],
+        "ideal_answer": "Overfitting occurs when a machine learning model learns the training data too well including noise, resulting in poor performance on unseen data and reduced generalization."
+      },
+      {
+        "question": "Supervised vs Unsupervised Learning",
+        "keywords": ["supervised", "unsupervised", "labeled", "clustering", "classification"],
+        "ideal_answer": "Supervised learning uses labeled data for tasks like classification and regression, while unsupervised learning uses unlabeled data for tasks like clustering and pattern discovery."
+      },
+      {
+        "question": "Explain Gradient Descent?",
+        "keywords": ["gradient", "loss", "learning rate", "optimization"],
+        "ideal_answer": "Gradient descent is an optimization algorithm used to minimize the loss function by updating parameters iteratively using the gradient and learning rate."
+      }
+    ]
+  },
+  {
+    "role": "Data Scientist",
+    "questions": [
+      {
+        "question": "What is P-value?",
+        "keywords": ["p value", "hypothesis", "probability", "significance"],
+        "ideal_answer": "The p-value is a statistical measure used in hypothesis testing to determine the significance of results. It represents the probability of observing the data assuming the null hypothesis is true."
+      },
+      {
+        "question": "Correlation vs Causation",
+        "keywords": ["correlation", "causation", "relationship", "variables"],
+        "ideal_answer": "Correlation indicates a relationship between variables, while causation means one variable directly affects another. Correlation does not imply causation."
+      },
+      {
+        "question": "Handling Missing Data",
+        "keywords": ["missing data", "imputation", "drop", "cleaning"],
+        "ideal_answer": "Missing data can be handled by techniques like imputation using mean or median, dropping rows or columns, or using advanced methods to maintain data integrity."
+      }
+    ]
+  },
+  {
+    "role": "Web Developer (Frontend / Backend / Full Stack)",
+    "questions": [
+      {
+        "question": "GET vs POST",
+        "keywords": ["get", "post", "http", "url", "body"],
+        "ideal_answer": "GET is used to retrieve data and sends parameters in the URL, while POST is used to send data securely in the request body."
+      },
+      {
+        "question": "What is REST API?",
+        "keywords": ["api", "rest", "stateless", "json"],
+        "ideal_answer": "A REST API is a stateless architecture that allows communication between client and server using HTTP methods and data formats like JSON."
+      },
+      {
+        "question": "What is React State?",
+        "keywords": ["state", "react", "component", "ui"],
+        "ideal_answer": "State in React is an object that holds dynamic data and controls how a component renders and behaves."
+      }
+    ]
+  },
+  {
+    "role": "DevOps Engineer",
+    "questions": [
+      {
+        "question": "What is CI/CD?",
+        "keywords": ["ci", "cd", "pipeline", "automation"],
+        "ideal_answer": "CI/CD stands for Continuous Integration and Continuous Deployment. It automates the process of building, testing, and deploying applications."
+      },
+      {
+        "question": "What is Docker?",
+        "keywords": ["docker", "container", "portable", "isolation"],
+        "ideal_answer": "Docker is a containerization platform that allows applications to run in isolated environments, ensuring consistency across systems."
+      },
+      {
+        "question": "Kubernetes?",
+        "keywords": ["kubernetes", "scaling", "containers", "deployment"],
+        "ideal_answer": "Kubernetes is a container orchestration platform used to automate deployment, scaling, and management of containerized applications."
+      }
+    ]
+  },
+  {
+    "role": "Cybersecurity Analyst",
+    "questions": [
+      {
+        "question": "What is Phishing?",
+        "keywords": ["phishing", "email", "attack", "data"],
+        "ideal_answer": "Phishing is a cyber attack where attackers use fake emails or websites to trick users into revealing sensitive information like passwords."
+      },
+      {
+        "question": "Encryption vs Hashing",
+        "keywords": ["encryption", "hashing", "security", "data"],
+        "ideal_answer": "Encryption is reversible and used to protect data, while hashing is irreversible and used for secure data storage like passwords."
+      },
+      {
+        "question": "SQL Injection",
+        "keywords": ["sql injection", "attack", "database", "input"],
+        "ideal_answer": "SQL Injection is a cyber attack where malicious SQL queries are inserted into input fields to manipulate or access a database."
+      }
+    ]
+  },
+  {
+    "role": "Research / AI Specialist (Advanced)",
+    "questions": [
+      {
+        "question": "CNN vs RNN",
+        "keywords": ["cnn", "rnn", "image", "sequence"],
+        "ideal_answer": "CNNs are used for image and spatial data, while RNNs are used for sequential data like time series and text."
+      },
+      {
+        "question": "What is Attention Mechanism?",
+        "keywords": ["attention", "transformer", "weights"],
+        "ideal_answer": "Attention mechanism allows models to focus on important parts of input data by assigning different weights, widely used in transformer models."
+      },
+      {
+        "question": "How to improve a model?",
+        "keywords": ["tuning", "features", "data", "regularization"],
+        "ideal_answer": "Model performance can be improved using techniques like hyperparameter tuning, feature engineering, increasing data, and regularization."
+      }
+    ]
+  }
+]

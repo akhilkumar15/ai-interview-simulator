@@ -22,7 +22,7 @@ Python · Streamlit · Scikit-learn · NLP · TF-IDF · JSON
 ## 🏃 Run locally
 ```bash
 git clone https://github.com/akhilkumar15/ai-interview-simulator
-cd <repo-name>
+cd ai-interview-simulator
 pip install -r requirements.txt
 streamlit run app.py
 ```
